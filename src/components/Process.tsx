@@ -1,33 +1,51 @@
 const steps = [
   {
     number: "01",
-    title: "Discovery & Consultation",
+    title: "Discovery & Scoping",
+    timeframe: "Week 1",
     description:
-      "We embed ourselves in your workflows, interview stakeholders, and identify high-impact automation opportunities. No sales pitch—just honest assessment.",
+      "We map your workflows, interview key stakeholders, and identify the highest-leverage automation opportunities. No sales pitch—just honest assessment.",
+    deliverables: [
+      "Workflow audit document",
+      "Opportunity assessment report", 
+      "Go/no-go recommendation",
+    ],
   },
   {
     number: "02",
-    title: "Demo & Data Collection",
+    title: "Design & Prototype",
+    timeframe: "Weeks 2-3",
     description:
-      "We build a working prototype to validate the approach. Upon approval, we securely collect API keys and system access with full NDAs in place.",
+      "We build a working prototype that demonstrates the solution in action. You see exactly how it works before we commit to full development.",
+    deliverables: [
+      "Functional prototype demo",
+      "Technical architecture plan",
+      "Integration requirements spec",
+    ],
   },
   {
     number: "03",
-    title: "Development & Testing",
+    title: "Development & Integration",
+    timeframe: "Weeks 4-6",
     description:
-      "Regular check-ins ensure the solution evolves exactly as intended. We test rigorously in staging environments before any production deployment.",
+      "Full build-out with regular check-ins. We integrate with your existing systems, test rigorously, and prepare for production deployment.",
+    deliverables: [
+      "Production-ready system",
+      "API integrations complete",
+      "Staging environment for testing",
+    ],
   },
   {
     number: "04",
-    title: "Live Deployment & Monitoring",
+    title: "Launch & Optimization",
+    timeframe: "Weeks 7-8",
     description:
-      "A 2-week live testing period (extendable if needed) ensures stability and performance. We monitor 24/7 and iterate based on real-world usage.",
-  },
-  {
-    number: "05",
-    title: "Ongoing Support",
-    description:
-      "Choose monthly retainer (continuous improvement + hosting) or full buyout (you own everything). Either way, we're available when you need us.",
+      "Two-week live monitoring period. We track performance, fine-tune based on real usage, and ensure everything runs smoothly at scale.",
+    deliverables: [
+      "Live production deployment",
+      "Performance monitoring dashboard",
+      "Optimization adjustments",
+    ],
   },
 ];
 
@@ -38,14 +56,14 @@ const Process = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted-foreground mb-4">
-            Our Methodology
+            How We Work
           </p>
           <h2 className="font-serif text-4xl lg:text-5xl text-gradient mb-6">
-            Our Process
+            From Discovery to Deployment
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            From first call to live deployment—transparent, collaborative, and 
-            designed for success.
+            A proven 8-week process that takes you from initial conversation to 
+            live, production-ready AI systems.
           </p>
         </div>
 
@@ -76,12 +94,32 @@ const Process = () => {
                   }`}
                 >
                   <div className="glass rounded-xl p-6 inline-block text-left transition-all duration-500 hover:border-primary hover:shadow-[0_20px_40px_hsla(350,70%,36%,0.15)]">
+                    {/* Timeframe badge */}
+                    <div className="inline-block px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-xs font-mono text-primary-glow mb-3">
+                      {step.timeframe}
+                    </div>
+                    
                     <h3 className="font-serif text-xl lg:text-2xl text-foreground mb-3">
                       {step.title}
                     </h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
+                    <p className="text-muted-foreground text-sm leading-relaxed mb-4 max-w-md">
                       {step.description}
                     </p>
+                    
+                    {/* Deliverables */}
+                    <div className="pt-4 border-t border-primary/10">
+                      <p className="text-xs font-mono uppercase tracking-wider text-muted-foreground mb-2">
+                        Deliverables:
+                      </p>
+                      <ul className="space-y-1">
+                        {step.deliverables.map((deliverable) => (
+                          <li key={deliverable} className="text-xs text-foreground/80 flex items-center gap-2">
+                            <span className="w-1 h-1 rounded-full bg-primary-glow" />
+                            {deliverable}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
 
@@ -90,6 +128,13 @@ const Process = () => {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Bottom note */}
+        <div className="text-center mt-16">
+          <p className="text-muted-foreground text-sm">
+            Timeline varies based on complexity. We'll provide accurate estimates after Discovery.
+          </p>
         </div>
       </div>
     </section>

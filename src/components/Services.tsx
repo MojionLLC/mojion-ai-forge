@@ -1,38 +1,38 @@
 const services = [
   {
-    title: "AI Voice Agents",
+    title: "Always-On Revenue & Support",
+    outcome: "Capture every opportunity, 24/7",
     description:
-      "Conversational AI that handles complex customer interactions with human-like understanding. Perfect for appointment booking, customer support, lead qualification, and sales calls.",
-    features: [
-      "24/7 Inbound & Outbound Calling",
-      "Natural Language Processing",
-      "Multi-Language Support",
-      "CRM Integration (Salesforce, HubSpot, Custom)",
-      "Real-Time Analytics Dashboard",
+      "Your phones are answered, leads are qualified, and customers are helped—around the clock—without adding headcount. AI voice agents that sound human and never take a day off.",
+    capabilities: [
+      "Inbound call handling & appointment scheduling",
+      "Lead qualification & routing",
+      "Customer support & FAQ resolution",
+      "After-hours coverage & overflow handling",
     ],
   },
   {
-    title: "Workflow Automation",
+    title: "Operational Automation at Scale",
+    outcome: "Eliminate repetitive work across your entire stack",
     description:
-      "Eliminate manual tasks with intelligent workflow systems that connect your entire tech stack. From data entry to complex multi-step processes—automated end-to-end.",
-    features: [
-      "n8n Workflow Engineering",
-      "API Integration & Custom Connectors",
-      "Data Pipeline Automation",
-      "Document Processing & OCR",
-      "Slack/Teams Bot Integration",
+      "Connect your tools, automate your workflows, and free your team from manual data entry. We build systems that handle the work your team shouldn't have to.",
+    capabilities: [
+      "End-to-end workflow automation",
+      "Cross-platform data synchronization",
+      "Document processing & extraction",
+      "Automated reporting & notifications",
     ],
   },
   {
-    title: "Custom AI Solutions",
+    title: "Custom AI Agents & Systems",
+    outcome: "Purpose-built intelligence for your specific challenges",
     description:
-      "Industry-specific models fine-tuned for your unique requirements. We handle everything from data preparation to deployment, ensuring compliance with GDPR, CCPA, and sector regulations.",
-    features: [
-      "Custom LLM Fine-Tuning",
-      "Domain-Specific Training",
-      "Compliance-First Design",
-      "Proprietary Data Security",
-      "Continuous Model Improvement",
+      "When off-the-shelf won't cut it, we design and deploy AI systems tailored to your industry, data, and processes. Full ownership, full compliance, built to last.",
+    capabilities: [
+      "Custom-trained models on your data",
+      "Industry-specific AI applications",
+      "GDPR/CCPA/HIPAA-ready infrastructure",
+      "Long-term maintenance & improvement",
     ],
   },
 ];
@@ -43,15 +43,15 @@ const Services = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted-foreground mb-4">
-            Core Capabilities
+          <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted-foreground mb-4 animate-fade-in-up">
+            What We Deliver
           </p>
-          <h2 className="font-serif text-4xl lg:text-5xl text-gradient mb-6">
-            What We Build
+          <h2 className="font-serif text-4xl lg:text-5xl text-gradient mb-6 animate-fade-in-up">
+            Outcomes, Not Features
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Built on battle-tested platforms like Vapi and n8n, engineered for 
-            scale, designed for your specific needs.
+            We don't sell tools. We deliver measurable business results through 
+            custom AI systems designed for your operations.
           </p>
         </div>
 
@@ -66,7 +66,12 @@ const Services = () => {
               {/* Top accent line */}
               <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary to-primary-glow transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
 
-              <h3 className="font-serif text-2xl text-gradient-wine mb-4">
+              {/* Outcome badge */}
+              <div className="text-xs font-mono uppercase tracking-wider text-primary-glow mb-4">
+                {service.outcome}
+              </div>
+
+              <h3 className="font-serif text-2xl text-foreground mb-4 leading-tight">
                 {service.title}
               </h3>
               
@@ -75,13 +80,13 @@ const Services = () => {
               </p>
 
               <ul className="space-y-3">
-                {service.features.map((feature) => (
+                {service.capabilities.map((capability) => (
                   <li
-                    key={feature}
-                    className="text-foreground text-sm flex items-start gap-3 pb-3 border-b border-primary/10 last:border-0 last:pb-0"
+                    key={capability}
+                    className="text-foreground/80 text-sm flex items-start gap-3 pb-3 border-b border-primary/10 last:border-0 last:pb-0"
                   >
                     <span className="text-primary-glow font-bold">▹</span>
-                    {feature}
+                    {capability}
                   </li>
                 ))}
               </ul>
