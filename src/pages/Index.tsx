@@ -7,6 +7,7 @@ import Comparison from "@/components/Comparison";
 import Results from "@/components/Results";
 import Process from "@/components/Process";
 import ResponsibleAI from "@/components/ResponsibleAI";
+import ContactForm from "@/components/ContactForm";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -23,6 +24,7 @@ const Index = () => {
         <Results />
         <Process />
         <ResponsibleAI />
+        <ContactForm />
         <CTA />
       </main>
       <Footer />
