@@ -3,21 +3,21 @@ import { Shield, Lock, Users, Scale } from "lucide-react";
 const principles = [
   {
     icon: Lock,
-    title: "Security-First Architecture",
+    title: "Security First Architecture",
     description:
-      "Encryption at rest and in transit. Your data never touches third-party servers without explicit consent. We build systems with the same security paranoia we'd want for our own business.",
+      "Encryption at rest and in transit. Your data never touches third party servers without explicit consent. We build systems with the same security paranoia we'd want for our own business.",
   },
   {
     icon: Users,
     title: "Client Ownership",
     description:
-      "You own your systems, your data, and your intellectual property. No vendor lock-in, no surprise licensing changes. When we build it, it's yours.",
+      "You own your systems, your data, and your intellectual property. No vendor lock in, no surprise licensing changes. When we build it, it's yours.",
   },
   {
     icon: Shield,
-    title: "Production-Grade Reliability",
+    title: "Production Grade Reliability",
     description:
-      "We build for the long term, not the demo. Every system is stress-tested, monitored, and maintained to run reliably at scale—because downtime costs more than development.",
+      "We build for the long term, not the demo. Every system is stress tested, monitored, and maintained to run reliably at scale because downtime costs more than development.",
   },
   {
     icon: Scale,
@@ -40,8 +40,7 @@ const ResponsibleAI = () => {
             Responsible AI, Built for Production
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed text-sm">
-            We take AI seriously. Not as a buzzword to chase, but as a tool that 
-            carries real responsibility. Here's how we approach it.
+            We take AI seriously. It's more than technology; it's a commitment to building solutions that genuinely transform how businesses operate. Here's how we approach it.
           </p>
         </div>
 
