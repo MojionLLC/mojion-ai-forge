@@ -51,20 +51,16 @@ const CTA = () => {
                 who are ready to invest in solutions that work.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="flex flex-col gap-3 justify-center items-center">
                 <a
                   href="mailto:MoJionvoice@gmail.com"
                   className="inline-flex items-center justify-center gap-2 bg-primary-foreground text-primary font-mono uppercase tracking-[0.15em] text-xs px-8 py-4 rounded-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
-                  MoJionvoice@gmail.com
-                </a>
-                <Button
-                  variant="heroOutline"
-                  size="xl"
-                  className="border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground/10"
-                >
                   Schedule Strategy Call
-                </Button>
+                </a>
+                <span className="text-primary-foreground/80 text-sm">
+                  MoJionvoice@gmail.com
+                </span>
               </div>
 
               {/* No pressure note */}
