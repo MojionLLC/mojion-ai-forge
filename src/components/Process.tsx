@@ -2,19 +2,19 @@ const steps = [
   {
     number: "01",
     title: "Discovery & Scoping",
-    timeframe: "Week 1",
+    timeframe: "2 to 4 Days",
     description:
-      "We map your workflows, interview key stakeholders, and identify the highest-leverage automation opportunities. No sales pitch—just honest assessment.",
+      "We map your workflows, interview key stakeholders, and identify the highest leverage automation opportunities. No sales pitch, just honest assessment.",
     deliverables: [
       "Workflow audit document",
       "Opportunity assessment report", 
-      "Go/no-go recommendation",
+      "Go/no go recommendation",
     ],
   },
   {
     number: "02",
     title: "Design & Prototype",
-    timeframe: "Weeks 2-3",
+    timeframe: "3 Days",
     description:
       "We build a working prototype that demonstrates the solution in action. You see exactly how it works before we commit to full development.",
     deliverables: [
@@ -26,11 +26,11 @@ const steps = [
   {
     number: "03",
     title: "Development & Integration",
-    timeframe: "Weeks 4-6",
+    timeframe: "3 Days",
     description:
-      "Full build-out with regular check-ins. We integrate with your existing systems, test rigorously, and prepare for production deployment.",
+      "Full build out with regular check ins. We integrate with your existing systems, test rigorously, and prepare for production deployment.",
     deliverables: [
-      "Production-ready system",
+      "Production ready system",
       "API integrations complete",
       "Staging environment for testing",
     ],
@@ -38,9 +38,9 @@ const steps = [
   {
     number: "04",
     title: "Launch & Optimization",
-    timeframe: "Weeks 7-8",
+    timeframe: "2 Week Period",
     description:
-      "Two-week live monitoring period. We track performance, fine-tune based on real usage, and ensure everything runs smoothly at scale.",
+      "Two week live monitoring period. We track performance, fine tune based on real usage, and ensure everything runs smoothly at scale.",
     deliverables: [
       "Live production deployment",
       "Performance monitoring dashboard",
@@ -62,8 +62,8 @@ const Process = () => {
             From Discovery to Deployment
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A proven 8-week process that takes you from initial conversation to 
-            live, production-ready AI systems.
+            A proven 2 week process that takes you from initial conversation to 
+            live, production ready AI systems.
           </p>
         </div>
 

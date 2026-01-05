@@ -24,8 +24,8 @@ const Index = () => {
         <Results />
         <Process />
         <ResponsibleAI />
-        <ContactForm />
         <CTA />
+        <ContactForm />
       </main>
       <Footer />
     </div>

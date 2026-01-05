@@ -1,30 +1,30 @@
 const caseStudies = [
   {
-    tag: "Healthcare",
-    title: "Appointment Scheduling for Multi-Location Clinic",
+    tag: "Moving Service",
+    title: "Receptionist Front for Multi State Business",
     description:
-      "Automated 10,000+ monthly appointment bookings, rescheduling, and patient reminders across 8 locations.",
+      "Automated over 5,000 monthly calls doing appointment bookings, customer support, pre estimates, and final closing for confirmation across a variety of locations.",
     result: "92% Booking Accuracy",
     details:
-      "Reduced front desk workload by 60 hours/week. Eliminated double-bookings. HIPAA-compliant infrastructure.",
+      "Reduced front desk workload by 60 hours/week. Eliminated double bookings. HIPAA compliant infrastructure.",
   },
   {
     tag: "Real Estate",
-    title: "Lead Qualification & Follow-Up System",
+    title: "Lead Qualification & Follow Up System",
     description:
-      "Voice AI handles initial inquiries, qualifies leads, and schedules property viewings—automatically syncing with agent calendars.",
+      "Designated outbound calling system polishing off customers bookings and a niche lead generator alongside a lead analyzer qualifying the results.",
     result: "3x Lead Conversion",
     details:
-      "Agents only speak with pre-qualified, interested buyers. Increased close rates by 45%.",
+      "Representatives only speak with pre qualified, interested buyers. Increased close rates by 45%.",
   },
   {
-    tag: "E-Commerce",
+    tag: "E Commerce",
     title: "Order Processing & Customer Support",
     description:
-      "End-to-end automation from order intake through fulfillment tracking, plus AI chat support for common inquiries.",
+      "End to end automation from order intake through fulfillment tracking, plus AI chat support for common inquiries.",
     result: "$50K/mo Saved",
     details:
-      "Eliminated need for 3 full-time support reps. 24/7 availability increased customer satisfaction by 38%.",
+      "Eliminated need for 3 full time support reps. 24/7 availability increased customer satisfaction by 38%.",
   },
 ];
 
