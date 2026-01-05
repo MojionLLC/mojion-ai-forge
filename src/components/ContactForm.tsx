@@ -69,7 +69,7 @@ const ContactForm = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your name"
-                className="bg-dark/50 border-wine/20 focus:border-wine text-cream placeholder:text-muted-foreground/50"
+                className="bg-dark/50 border-wine/20 focus:border-wine text-black placeholder:text-muted-foreground/50"
               />
             </div>
             <div className="space-y-2">
@@ -84,7 +84,7 @@ const ContactForm = () => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="you@company.com"
-                className="bg-dark/50 border-wine/20 focus:border-wine text-cream placeholder:text-muted-foreground/50"
+                className="bg-dark/50 border-wine/20 focus:border-wine text-black placeholder:text-muted-foreground/50"
               />
             </div>
           </div>
@@ -99,7 +99,7 @@ const ContactForm = () => {
               value={formData.company}
               onChange={handleChange}
               placeholder="Your company name"
-              className="bg-dark/50 border-wine/20 focus:border-wine text-cream placeholder:text-muted-foreground/50"
+              className="bg-dark/50 border-wine/20 focus:border-wine text-black placeholder:text-muted-foreground/50"
             />
           </div>
 
@@ -115,7 +115,7 @@ const ContactForm = () => {
               onChange={handleChange}
               placeholder="Tell us about your automation needs..."
               rows={5}
-              className="bg-dark/50 border-wine/20 focus:border-wine text-cream placeholder:text-muted-foreground/50 resize-none"
+              className="bg-dark/50 border-wine/20 focus:border-wine text-black placeholder:text-muted-foreground/50 resize-none"
             />
           </div>
 
