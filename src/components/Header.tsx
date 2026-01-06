@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import mojionLogo from "@/assets/mojion-logo.png";
 
 const navLinks = [
   { href: "#services", label: "Services" },
@@ -41,8 +42,9 @@ const Header = () => {
         {/* Logo */}
         <a
           href="#"
-          className="font-display text-xl lg:text-2xl tracking-[0.2em] text-foreground animate-glitch"
+          className="flex items-center gap-3 font-display text-xl lg:text-2xl tracking-[0.2em] text-foreground"
         >
+          <img src={mojionLogo} alt="MoJion Logo" className="h-8 lg:h-10 w-auto" />
           MOJION
         </a>
 

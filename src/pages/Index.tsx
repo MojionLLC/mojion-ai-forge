@@ -16,16 +16,35 @@ const Index = () => {
     <div className="min-h-screen bg-background scanline">
       <Header />
       <main>
-        <Hero />
-        <Audience />
-        <Stats />
-        <Services />
-        <Comparison />
-        <Results />
-        <Process />
-        <ResponsibleAI />
-        <CTA />
-        <ContactForm />
+        {/* Hero section - base gradient */}
+        <div className="bg-gradient-to-b from-background via-background to-[hsl(350,30%,8%)]">
+          <Hero />
+        </div>
+        
+        {/* Audience & Stats - slightly warmer */}
+        <div className="bg-gradient-to-b from-[hsl(350,30%,8%)] via-[hsl(350,25%,9%)] to-[hsl(350,20%,10%)]">
+          <Audience />
+          <Stats />
+        </div>
+        
+        {/* Services & Comparison - mid tone */}
+        <div className="bg-gradient-to-b from-[hsl(350,20%,10%)] via-[hsl(350,18%,11%)] to-[hsl(350,15%,12%)]">
+          <Services />
+          <Comparison />
+        </div>
+        
+        {/* Results & Process - deeper */}
+        <div className="bg-gradient-to-b from-[hsl(350,15%,12%)] via-[hsl(350,12%,10%)] to-[hsl(350,10%,8%)]">
+          <Results />
+          <Process />
+        </div>
+        
+        {/* ResponsibleAI & CTA - rich wine undertones */}
+        <div className="bg-gradient-to-b from-[hsl(350,10%,8%)] via-[hsl(350,15%,7%)] to-[hsl(350,20%,6%)]">
+          <ResponsibleAI />
+          <CTA />
+          <ContactForm />
+        </div>
       </main>
       <Footer />
     </div>
