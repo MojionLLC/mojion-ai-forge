@@ -23,7 +23,7 @@
     --secondary-foreground: 45 30% 95%;
 
     --muted: 240 10% 15%;
-    --muted-foreground: 0 0% 54%;
+    --muted-foreground: 0 0% 70%;
 
     --accent: 350 70% 36%;
     --accent-foreground: 45 30% 95%;
@@ -41,7 +41,7 @@
     --wine: 350 70% 36%;
     --wine-glow: 350 74% 45%;
     --cream: 45 30% 95%;
-    --gray: 0 0% 54%;
+    --gray: 0 0% 70%;
     --dark: 240 10% 4%;
     --darker: 240 15% 2%;
 
@@ -78,7 +78,7 @@
     --secondary: 240 10% 12%;
     --secondary-foreground: 45 30% 95%;
     --muted: 240 10% 15%;
-    --muted-foreground: 0 0% 54%;
+    --muted-foreground: 0 0% 70%;
     --accent: 350 70% 36%;
     --accent-foreground: 45 30% 95%;
     --destructive: 0 62.8% 30.6%;
