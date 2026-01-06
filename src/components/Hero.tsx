@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import mojionLogo from "@/assets/mojion-logo.png";
 
 const statusMessages = [
   "> SYSTEM_INITIALIZING...",
@@ -36,9 +35,8 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto w-full relative z-10">
         <div className="max-w-4xl">
-          {/* Status bar with logo */}
+          {/* Status bar */}
           <div className="flex items-center gap-3 mb-6">
-            <img src={mojionLogo} alt="MoJion Logo" className="h-10 w-auto animate-float" />
             <span className="font-mono text-xs text-primary-glow tracking-wider">
               {statusMessages[statusIndex]}
             </span>
