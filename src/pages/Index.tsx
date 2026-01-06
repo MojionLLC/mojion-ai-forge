@@ -16,31 +16,31 @@ const Index = () => {
     <div className="min-h-screen bg-background scanline">
       <Header />
       <main>
-        {/* Hero section - base gradient */}
-        <div className="bg-gradient-to-b from-background via-background to-[hsl(350,30%,8%)]">
+        {/* Hero section - deep dark base */}
+        <div className="bg-gradient-to-b from-[hsl(350,25%,4%)] via-background to-[hsl(350,35%,10%)]">
           <Hero />
         </div>
         
-        {/* Audience & Stats - slightly warmer */}
-        <div className="bg-gradient-to-b from-[hsl(350,30%,8%)] via-[hsl(350,25%,9%)] to-[hsl(350,20%,10%)]">
+        {/* Audience & Stats - warmer wine tones */}
+        <div className="bg-gradient-to-b from-[hsl(350,35%,10%)] via-[hsl(350,40%,12%)] to-[hsl(350,30%,8%)]">
           <Audience />
           <Stats />
         </div>
         
-        {/* Services & Comparison - mid tone */}
-        <div className="bg-gradient-to-b from-[hsl(350,20%,10%)] via-[hsl(350,18%,11%)] to-[hsl(350,15%,12%)]">
+        {/* Services & Comparison - deeper contrast */}
+        <div className="bg-gradient-to-b from-[hsl(350,30%,8%)] via-[hsl(340,35%,6%)] to-[hsl(350,40%,11%)]">
           <Services />
           <Comparison />
         </div>
         
-        {/* Results & Process - deeper */}
-        <div className="bg-gradient-to-b from-[hsl(350,15%,12%)] via-[hsl(350,12%,10%)] to-[hsl(350,10%,8%)]">
+        {/* Results & Process - rich undertones */}
+        <div className="bg-gradient-to-b from-[hsl(350,40%,11%)] via-[hsl(345,35%,9%)] to-[hsl(350,30%,7%)]">
           <Results />
           <Process />
         </div>
         
-        {/* ResponsibleAI & CTA - rich wine undertones */}
-        <div className="bg-gradient-to-b from-[hsl(350,10%,8%)] via-[hsl(350,15%,7%)] to-[hsl(350,20%,6%)]">
+        {/* ResponsibleAI & CTA - dramatic finish */}
+        <div className="bg-gradient-to-b from-[hsl(350,30%,7%)] via-[hsl(350,45%,10%)] to-[hsl(350,50%,8%)]">
           <ResponsibleAI />
           <CTA />
           <ContactForm />
