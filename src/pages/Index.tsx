@@ -16,31 +16,31 @@ const Index = () => {
     <div className="min-h-screen bg-background scanline">
       <Header />
       <main>
-        {/* Hero section - deep dark base */}
-        <div className="bg-gradient-to-b from-[hsl(350,25%,4%)] via-background to-[hsl(350,35%,10%)]">
+        {/* Hero section - pure black */}
+        <div className="bg-gradient-to-b from-black via-[hsl(0,0%,4%)] to-[hsl(0,0%,8%)]">
           <Hero />
         </div>
         
-        {/* Audience & Stats - warmer wine tones */}
-        <div className="bg-gradient-to-b from-[hsl(350,35%,10%)] via-[hsl(350,40%,12%)] to-[hsl(350,30%,8%)]">
+        {/* Audience & Stats */}
+        <div className="bg-gradient-to-b from-[hsl(0,0%,8%)] via-[hsl(0,0%,10%)] to-[hsl(0,0%,12%)]">
           <Audience />
           <Stats />
         </div>
         
-        {/* Services & Comparison - deeper contrast */}
-        <div className="bg-gradient-to-b from-[hsl(350,30%,8%)] via-[hsl(340,35%,6%)] to-[hsl(350,40%,11%)]">
+        {/* Services & Comparison */}
+        <div className="bg-gradient-to-b from-[hsl(0,0%,12%)] via-[hsl(0,0%,14%)] to-[hsl(0,0%,16%)]">
           <Services />
           <Comparison />
         </div>
         
-        {/* Results & Process - rich undertones */}
-        <div className="bg-gradient-to-b from-[hsl(350,40%,11%)] via-[hsl(345,35%,9%)] to-[hsl(350,30%,7%)]">
+        {/* Results & Process */}
+        <div className="bg-gradient-to-b from-[hsl(0,0%,16%)] via-[hsl(0,0%,18%)] to-[hsl(0,0%,20%)]">
           <Results />
           <Process />
         </div>
         
-        {/* ResponsibleAI & CTA - dramatic finish */}
-        <div className="bg-gradient-to-b from-[hsl(350,30%,7%)] via-[hsl(350,45%,10%)] to-[hsl(350,50%,8%)]">
+        {/* ResponsibleAI & CTA - ending in dark grey */}
+        <div className="bg-gradient-to-b from-[hsl(0,0%,20%)] via-[hsl(0,0%,22%)] to-[hsl(0,0%,25%)]">
           <ResponsibleAI />
           <CTA />
           <ContactForm />

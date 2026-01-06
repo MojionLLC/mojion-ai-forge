@@ -1,3 +1,5 @@
+import mojionLogo from "@/assets/mojion-logo.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -7,10 +9,10 @@ const Footer = () => {
         <div className="flex flex-col items-center text-center">
           {/* Logo */}
           <div className="flex items-center gap-4 mb-6">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary-glow animate-glow-pulse" />
+            <img src={mojionLogo} alt="MoJion Logo" className="w-10 h-10 object-contain" />
             <div className="flex flex-col">
               <span className="font-display text-lg tracking-[0.2em] text-foreground">
-                MOJION
+                MoJion
               </span>
               <span className="font-mono text-[0.65rem] text-muted-foreground tracking-wider">
                 Autonomous AI Infrastructure
