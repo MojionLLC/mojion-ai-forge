@@ -8,6 +8,7 @@ import { Toaster } from "@/components/ui/toaster";
   import NotFound from "./pages/NotFound";
   import AIReceptionist from "./pages/AIReceptionist";
   import AIAutomation from "./pages/AIAutomation";
+  import AIVoiceAgents from "./pages/AIVoiceAgents";
 
   const queryClient = new QueryClient();
 
@@ -22,6 +23,8 @@ import { Toaster } from "@/components/ui/toaster";
             <Route path="/ai-receptionist" element={<AIReceptionist
   />} />
             <Route path="/ai-automation" element={<AIAutomation />} />
+            <Route path="/ai-voice-agents" element={<AIVoiceAgents />}
+   />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE
   */}
             <Route path="*" element={<NotFound />} />
