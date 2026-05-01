@@ -1,0 +1,13 @@
+{
+  "name": "undergrads-weekly-data-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scheduled Claude Code routine that posts a weekly data digest to the Undergrads #data Slack channel.",
+  "main": "scripts/fetch-data.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
