@@ -23,7 +23,9 @@ You are writing the **weekly digest** for the Undergrads `#data` Slack channel: 
 - 2026-04-29 to 04-30: Slack notifications consolidated from 3 messages per call to 1 (live alert + end-of-call merge via `chat.update`).
 - 2026-04-30: Second-agent (scope-gathering for inventory/heavy-items/rooms) was tested but **kept in testing only** — Jack pulled the plug due to hallucinations + analysis lag. Production runs the original 6-question flow.
 
-**Maintenance mode:** As of 2026-04-30 sync, the system is in maintenance mode. No new features, only low-effort fixes. Suggestions you make should bias toward simplification + reliability. The flagged low-hanging fruit is **expanding human-handoff trigger phrases** for ~+19% warm-lead handoff rate.
+**Maintenance mode:** As of 2026-04-30 sync, the system is in maintenance mode. No new features, only low-effort fixes. Suggestions you make should bias toward simplification + reliability.
+
+**Retracted claim — for your awareness:** An earlier "+19% warm leads from expanding human-handoff trigger phrases" claim was RETRACTED 2026-05-01. It came from hangup analysis on tabs that lack a transfer column, so transferred and dropped calls were conflated. The AI Evaluation tab (live sheet GID 476500544, added 2026-04-28) shows 3/3 (100%) of explicit human-asks were recognized and a transfer was initiated. Do NOT resurface that claim. If you analyze handoff behavior, use the AI Evaluation tab's `Customer Asked for Human` + `Transfer Attempted` + `Transfer Succeeded` columns and report what's actually there.
 
 ## Data Sources Available to You (per run)
 
